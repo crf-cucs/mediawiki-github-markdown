@@ -1,13 +1,12 @@
 {
     "name": "crf/mediawiki-better-markdown",
     "license": "GPLv2+",
-	"type": "mediawiki-extension",
-	"repositories": [{
+    "type": "mediawiki-extension",
     "require": {
-		"erusev/parsedown": "^1.6",
-		"composer/installers": ">=1.0.1"
+	"erusev/parsedown": "^1.6",
+	"composer/installers": ">=1.0.1"
     },
     "autoload": {
-		"files": ["src/autoload.php"]
-	}
+	"files": ["src/autoload.php"]
+    }
 }
