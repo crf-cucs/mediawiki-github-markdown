@@ -1,5 +1,5 @@
 {
-    "name": "crf/mediawiki-better-markdown",
+    "name": "crf-cucs/mediawiki-better-markdown",
     "license": "GPLv2+",
     "require": {
 	"erusev/parsedown": "^1.6"
