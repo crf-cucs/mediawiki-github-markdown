@@ -18,11 +18,12 @@ class Hooks
      * @param StripState &$strip_state
      * @return bool Always returns true (to enable further processing)
      */
-    public static function onParserBeforeInternalParse( &$parser, &$text, &$strip_state ) {
+    public static function onParserAfterParse( $parser, &$text) {
 	$parsedown = new \Parsedown();
+	$text = str_replace('#', '1.', $text);
 	$text = $parsedown->text($text);
 
 	// continue to parse
-	return true;
+	return false;
     }
 }

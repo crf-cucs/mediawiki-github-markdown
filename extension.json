@@ -4,8 +4,8 @@
 		"Sean Capaloff-Jones"
 	],
 	"Hooks": {
-		"ParserBeforeInternalParse": [
-			"Crf\\GithubMarkdown\\Hooks::onParserBeforeInternalParse"
+		"ParserAfterParse": [
+			"Crf\\GithubMarkdown\\Hooks::onParserAfterParse"
 		]
 	},
 	"AutoloadClasses": {
