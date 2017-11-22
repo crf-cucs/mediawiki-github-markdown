@@ -1,0 +1,14 @@
+{
+	"name": "GithubMarkdown",
+	"author": [
+		"Sean Capaloff-Jones"
+	],
+	"Hooks": {
+		"ParserBeforeInternalParse": [
+			"Crf\\GithubMarkdown\\Hooks::onParserBeforeInternalParse"
+		]
+	},
+	"AutoloadClasses": {
+		"Crf\\GithubMarkdown\\Hooks": "src/Hooks.php"
+	}
+}
